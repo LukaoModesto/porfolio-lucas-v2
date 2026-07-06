@@ -1,75 +1,74 @@
-# React + TypeScript + Vite
+# Lucas Andrade | Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfólio profissional desenvolvido para apresentar minha trajetória, habilidades e projetos como desenvolvedor de software.
 
-Currently, two official plugins are available:
+O projeto foi construído com foco em visual moderno, responsividade, animações suaves e uma experiência com aparência de produto real.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🔗 Acesse o site
 
-## React Compiler
+[Ver portfólio online](https://lukaomodesto.github.io/portfolio-lucas-v2/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Tecnologias utilizadas
 
-## Expanding the ESLint configuration
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+- Lucide React
+- React Icons
+- GitHub Pages
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📌 Seções do portfólio
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **Início**: apresentação principal com CTA para projetos e contato.
+- **Sobre mim**: resumo profissional e foco atual.
+- **Projetos**: projetos desenvolvidos, com destaque para o LifeHUB.
+- **Skills**: principais tecnologias e ferramentas utilizadas.
+- **Contato**: links para WhatsApp, GitHub, LinkedIn e e-mail.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🧠 Projeto em destaque
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### LifeHUB
 
-```
+Aplicação de produtividade focada em agenda, eventos, lembretes e organização pessoal.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+O projeto está sendo desenvolvido com backend estruturado, autenticação JWT e planejamento para versão PWA.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+**Stack principal:**
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- FastAPI
+- React
+- TypeScript
+- Tailwind CSS
+- JWT
+- SQLite
 
-```
+## 📂 Estrutura do projeto
+
+```txt
+portfolio-lucas-v2/
+├─ public/
+│  ├─ favicon.png
+│  └─ signature-logo-transparent.png
+├─ src/
+│  ├─ components/
+│  │  ├─ About.tsx
+│  │  ├─ Contact.tsx
+│  │  ├─ Footer.tsx
+│  │  ├─ Hero.tsx
+│  │  ├─ Navbar.tsx
+│  │  ├─ Projects.tsx
+│  │  ├─ Skills.tsx
+│  │  └─ SplashScreen.tsx
+│  ├─ data/
+│  │  └─ projects.ts
+│  ├─ App.tsx
+│  ├─ index.css
+│  └─ main.tsx
+├─ index.html
+├─ package.json
+├─ vite.config.ts
+└─ README.md
+
+mas perai, porque voce ta aqui lendo isso?!?!?!?!
