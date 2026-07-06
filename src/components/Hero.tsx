@@ -77,7 +77,7 @@ export function Hero() {
             </a>
 
             <a
-              href="mailto:seuemail@email.com"
+              href="mailto:lucasoliveira.odev@gmail.com"
               className="flex h-11 w-11 items-center justify-center rounded-full border border-white/10 bg-white/5 text-slate-300 transition hover:border-cyan-400 hover:text-cyan-300"
               aria-label="E-mail"
             >
